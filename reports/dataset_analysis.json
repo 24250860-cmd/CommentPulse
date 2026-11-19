@@ -1,0 +1,35 @@
+{
+  "dataset": "RuSentiTweet",
+  "source": "https://raw.githubusercontent.com/sismetanin/rusentitweet/main/rusentitweet_full.csv",
+  "source_columns": [
+    "",
+    "text",
+    "label",
+    "id"
+  ],
+  "raw_rows": 13392,
+  "rows_after_cleaning": 10959,
+  "removed_empty": 0,
+  "removed_duplicates": 94,
+  "removed_non_sentiment_classes": 2339,
+  "original_class_distribution": {
+    "skip": 1843,
+    "negative": 3298,
+    "neutral": 5341,
+    "speech": 496,
+    "positive": 2414
+  },
+  "training_class_distribution": {
+    "negative": 3293,
+    "neutral": 5266,
+    "positive": 2400
+  },
+  "cleaning": [
+    "remove empty text",
+    "normalize whitespace",
+    "replace URLs and usernames with tokens",
+    "remove duplicate text-label pairs",
+    "keep positive/negative/neutral; exclude speech and skip"
+  ],
+  "note": "The dataset is Russian social-media posts, not specifically Instagram/TikTok comments."
+}

@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+venv/
+*.pyc
+instance/*.db
+dataset/rusentitweet_full.csv
+dataset/rusentitweet_cleaned.csv
+.idea/

@@ -1,0 +1,1 @@
+После python prepare_dataset.py появится dataset_analysis.json. После python train_model.py появится model_metrics.json. В этих файлах хранятся фактические показатели текущего запуска; не подставляйте придуманные значения в отчёт.

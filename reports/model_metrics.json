@@ -1,0 +1,71 @@
+{
+  "dataset": "RuSentiTweet",
+  "total_rows": 10959,
+  "train_rows": 8767,
+  "test_rows": 2192,
+  "accuracy": 0.572536496350365,
+  "macro_f1": 0.5607759349667737,
+  "weighted_f1": 0.5754482011466074,
+  "classification_report": {
+    "negative": {
+      "precision": 0.5466666666666666,
+      "recall": 0.5599393019726859,
+      "f1-score": 0.553223388305847,
+      "support": 659.0
+    },
+    "neutral": {
+      "precision": 0.6602150537634408,
+      "recall": 0.5830959164292497,
+      "f1-score": 0.6192637418053455,
+      "support": 1053.0
+    },
+    "positive": {
+      "precision": 0.46337308347529815,
+      "recall": 0.5666666666666667,
+      "f1-score": 0.5098406747891284,
+      "support": 480.0
+    },
+    "accuracy": 0.572536496350365,
+    "macro avg": {
+      "precision": 0.5567516013018019,
+      "recall": 0.5699006283562008,
+      "f1-score": 0.5607759349667737,
+      "support": 2192.0
+    },
+    "weighted avg": {
+      "precision": 0.5829739347693338,
+      "recall": 0.572536496350365,
+      "f1-score": 0.5754482011466074,
+      "support": 2192.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "confusion_matrix": [
+    [
+      369,
+      185,
+      105
+    ],
+    [
+      229,
+      614,
+      210
+    ],
+    [
+      77,
+      131,
+      272
+    ]
+  ],
+  "class_distribution": {
+    "negative": 3293,
+    "neutral": 5266,
+    "positive": 2400
+  },
+  "model": "TF-IDF (1-2 grams) + Logistic Regression",
+  "random_state": 42
+}
